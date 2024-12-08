@@ -1,0 +1,233 @@
+
+*{
+  
+    box-sizing: border-box;
+    margin: 0px;
+
+    
+}
+
+
+body {
+    
+    background-color: #a46868;
+    margin: 0 auto;
+    top: 0;
+    
+}
+
+header {
+
+background-color: #a46868;
+
+}
+
+#Nome_Meu {
+ 
+    text-align: start;
+    padding-left: 38px;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, sans-serif;
+    margin-bottom: 10px; 
+    letter-spacing: 10px;
+    background-color: white;
+    background-size: 50;
+    border-bottom: 2px solid #000
+   
+}
+
+#Menu ol{
+
+list-style-type: none;
+padding: 0;
+font-family: 'Times New Roman', Times, sans-serif;
+text-align: start;
+
+}
+
+#Menu li {
+    margin-left: 30px;
+    font-size: 18px;
+    display: inline-block; 
+
+}
+
+#Menu a {
+
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    padding: 10px 10px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+   
+
+}
+
+#Menu a:hover {
+    background-color: white; 
+    color: black; 
+    border-radius: 12px; 
+}
+
+/*Formatação do menu FIM*
+
+/*Formatação do formulário*/
+
+/*Configurando o grid*/
+
+.Pgrid {
+
+    display: grid;
+    /*Configurando a quantidade de colunas\ fração de espaço +resposividade*/
+    grid-template-columns: 40% 60%; 
+    box-sizing: border-box;
+    margin-top: 30px;
+    text-align: center;
+    gap: 30px; /*Espaçamento entre os grid*/
+
+}
+
+img{
+
+width: 109%;
+border: 4px solid #ffffff;
+border-radius: 4%;
+}
+.formulario{
+        
+    padding-top: 118px;
+    padding-left: 70px;
+    background-color: #ffffff;
+    margin-right: 30px;
+    border-top-right-radius: 4%;
+
+        
+        
+}
+
+.descri {
+
+    padding-right: 51%;
+    text-align: start;
+
+}
+.Cont_Form  h1 {
+    
+    color:#a46868;
+    font-size: 60px;
+    margin-top: -10%;
+    padding-bottom: 0px;
+
+}
+
+.Cont_Form p {
+
+    font-size: 15px;
+    color: #a46868;
+    padding-bottom: 4%;
+}
+
+textarea {
+    
+    width: 60%;
+    height:90px;
+    align-content: center;
+    resize: none;
+    border-color: #dfdcdc;
+    text-align: start;
+    margin-bottom: 2%;
+    border-radius: 15px;
+
+
+  }
+
+  #Nome {
+    border-style: solid;
+    border-color: #dfdcdc;
+    transition: border-color 0.3s ease;
+    width: 60%;
+    height: 7%;
+    text-align: start;
+    margin-bottom: 2%;
+    border-radius: 30px;
+    
+
+  }
+
+  #telnum {
+
+    border-style: solid;
+    border-color: #dfdcdc;
+    transition: border-color 0.3s ease;
+    width: 60%;
+    height: 7%;
+    text-align: star;
+    margin-bottom: 2%;
+    border-radius: 30px;
+
+  }
+
+  #email {
+
+    border-style: solid;
+    border-color: #dfdcdc;
+    transition: border-color 0.3s ease; 
+    width: 60%;
+    height: 7%;
+    text-align: star;
+    margin-bottom: 2%;
+    border-radius: 30px;
+
+  }
+
+  #butao {
+
+    font-size: 15px;
+    padding: 5px 8px;
+    border-style: unset;
+    border: 2px solid #ffffff;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+    width: 60%;
+    height: 7%;
+
+  }
+
+  /*Quando o botão foi selecionado ele pisca essa cor ai*/
+  #butao:active {
+
+    border-color: #a46868;
+    
+  }
+
+ 
+
+footer {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 1.3%;
+
+}
+
+/*Finalizado*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
